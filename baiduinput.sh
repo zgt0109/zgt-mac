@@ -2,7 +2,7 @@
 
 # 安装百度输入法
 brew cask install baiduinput && (
-  open /opt/homebrew-cask/Caskroom/baiduinput/*/安装百度输入法.app
+  open /usr/local/Caskroom/baiduinput/*/安装百度输入法.app
 )
 
 # 安装谷歌浏览器

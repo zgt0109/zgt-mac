@@ -4,7 +4,7 @@ brew install ssh-copy-id
 brew cask install macdown
 brew cask install dash
 brew cask install xmind
-# brew cask install keepassx(可选)
+brew cask install keepassx
 brew cask install docker
 brew cask install vagrant virtualbox virtualbox-extension-pack
 brew cask install atom
