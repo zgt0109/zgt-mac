@@ -7,6 +7,6 @@ brew install mysql
 brew install postgresql
 brew install memcached
 brew install redis
-# brew install java
+brew install java
 brew install elasticsearch
 brew install nginx
