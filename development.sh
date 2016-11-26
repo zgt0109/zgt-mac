@@ -2,6 +2,8 @@
 
 brew install ssh-copy-id
 brew cask install macdown
+brew cask install dash
+brew cask install xmind
 # brew cask install keepassx(可选)
 brew cask install docker
 brew cask install vagrant virtualbox virtualbox-extension-pack
@@ -29,6 +31,10 @@ brew cask install dbeaver-enterprise
 brew cask install wireshark
 brew cask install insomnia
 
+# ImageMagick
+# 安裝 ImageMagick 需先有 X11 的 support,OSX 10.8 拿掉了...
+# http://xquartz.macosforge.org/landing/
+# brew install imagemagick
 brew install graphviz
 brew cask install gimp
 brew cask install licecap
