@@ -7,5 +7,9 @@ brew cask install baiduinput && (
 
 # 安装谷歌浏览器
 brew cask install google-chrome
+
 # 安装sublime-text
 brew cask install sublime-text
+
+# pow 服务器
+curl -v get.pow.cx | sh
