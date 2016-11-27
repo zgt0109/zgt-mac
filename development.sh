@@ -14,7 +14,6 @@ echo 'strict-ssl=false' >> ~/.atom/.apmrc
 
 brew cask install wechatwebdevtools
 brew install hub
-brew install tig
 brew install htop
 brew install tree
 # https://dev.yorhel.nl/ncdu

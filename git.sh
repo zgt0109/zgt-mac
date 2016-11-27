@@ -16,3 +16,9 @@ git config --global alias.ci commit
 git config --global alias.st status
 git config --global alias.ps push
 git config --global alias.pl pull
+
+## some Git software
+# git 圖形化界面软件，类似GitDesktop
+brew cask install rowanj-gitx
+# tig 查看git的提交记录 -- git log
+brew install tig
