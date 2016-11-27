@@ -12,7 +12,7 @@ brew cask install atom
 echo 'registry=https://registry.npm.taobao.org/' >> ~/.atom/.apmrc
 echo 'strict-ssl=false' >> ~/.atom/.apmrc
 
-brew cask install wechat-web-devtools
+brew cask install wechatwebdevtools
 brew install hub
 brew install tig
 brew install htop
