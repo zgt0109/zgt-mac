@@ -10,6 +10,8 @@ export RUBY_CONFIGURE_OPTS="--disable-install-doc  --with-readline-dir=/usr/loca
 # Rbenv: https://github.com/rbenv/ruby-build/wiki
 brew install openssl libyaml libffi readline
 brew install rbenv && eval "$(rbenv init -)"
+#PATH for rbenv
+export PATH="$HOME/.rbenv/shims:$PATH"
 
 # Ruby
 rbenv install -kvs $RUBY_VERSION
