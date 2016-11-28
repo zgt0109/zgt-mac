@@ -10,6 +10,8 @@ brew install openssl readline xz
 brew install pyenv  && eval "$(pyenv init -)"
 brew install pyenv-virtualenv && eval "$(pyenv virtualenv-init -)"
 brew install pyenv-which-ext
+#PATH for pyenv
+export PATH="$HOME/.pyenv/shims:$PATH"
 
 # Python
 pyenv install -kvs $PYTHON_VERSION
