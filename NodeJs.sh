@@ -9,3 +9,6 @@ npm install -g react-native-cli
 # npm install -g ember-cli
 npm install -g express-generator
 npm install -g bower
+# 给目录赋予权限
+sudo chown -R $USER:$GROUP ~/.npm
+sudo chown -R $USER:$GROUP ~/.config
