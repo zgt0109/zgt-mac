@@ -12,6 +12,8 @@ brew install pyenv-virtualenv && eval "$(pyenv virtualenv-init -)"
 brew install pyenv-which-ext
 #PATH for pyenv
 export PATH="$HOME/.pyenv/shims:$PATH"
+echo 'eval "$(pyenv init -)"' | tee -a ~/.zshrc ~/.bash_profile
+echo 'eval "$(pyenv virtualenv-init -)"' | tee -a ~/.zshrc ~/.bash_profile
 
 # Python
 pyenv install -kvs $PYTHON_VERSION

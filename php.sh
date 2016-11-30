@@ -19,3 +19,5 @@ composer global require "laravel/installer"
 
 # Lumen
 composer global require "laravel/lumen-installer"
+
+echo "export PATH=\"/usr/local/sbin:\$PATH:$(brew --prefix homebrew/php/php56)/bin:$COMPOSER_PATH\"" | tee -a ~/.zshrc ~/.bash_profile

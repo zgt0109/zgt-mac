@@ -12,6 +12,7 @@ brew install openssl libyaml libffi readline
 brew install rbenv && eval "$(rbenv init -)"
 #PATH for rbenv
 export PATH="$HOME/.rbenv/shims:$PATH"
+echo 'eval "$(rbenv init -)"' | tee -a ~/.zshrc ~/.bash_profile
 
 # Ruby
 rbenv install -kvs $RUBY_VERSION
