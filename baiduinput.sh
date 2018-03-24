@@ -12,4 +12,4 @@ brew cask install google-chrome
 brew cask install sublime-text
 
 # pow 服务器
-curl -v get.pow.cx | sh
+# curl -v get.pow.cx | sh
