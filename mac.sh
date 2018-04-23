@@ -16,3 +16,15 @@ brew tap caskroom/cask
 
 # Get iTerm2
 brew cask install iterm2
+
+# The Mac App for Homebrew.
+brew cask install cakebrew
+
+# zsh-autosuggestions
+# git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+
+# vi ~/.zshrc
+# source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source ~/.zshrc
+# or Start a new terminal session.
+

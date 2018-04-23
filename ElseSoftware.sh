@@ -1,6 +1,7 @@
 #!/bin/bash
 
 brew cask install qq electronic-wechat thunder splayerx neteasemusic baiducloud the-unarchiver
+brew cask install qqmusic
 # brew cask install thunder
 # brew cask install aliwangwang(可选)
 # brew cask install neteasemusic

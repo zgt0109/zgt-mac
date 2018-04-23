@@ -1,6 +1,11 @@
 #!/bin/bash
 
+brew install ssh-copy-id htop tree
+brew cask install macdown dash docker
+
 brew install ssh-copy-id
+# ssh-copy-id -i ~/.ssh/id_rsa.pub user@server
+
 brew cask install macdown
 brew cask install dash
 brew cask install xmind
