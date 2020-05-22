@@ -30,4 +30,4 @@ bundle config mirror.${GEM_SOURCES_ORIGIN%/} ${GEM_SOURCES_CHINA%/}
 
 # framework
 gem install rails
-gem install sinatra
+# gem install sinatra

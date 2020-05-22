@@ -18,9 +18,6 @@ echo 'registry=https://registry.npm.taobao.org/' >> ~/.atom/.apmrc
 echo 'strict-ssl=false' >> ~/.atom/.apmrc
 
 brew cask install wechatwebdevtools
-brew install hub
-brew install htop
-brew install tree
 # https://dev.yorhel.nl/ncdu
 brew install ncdu
 brew install wget
@@ -46,3 +43,21 @@ brew cask install gitter
 
 brew install heroku
 heroku help
+
+
+brew cask install qq qqmusic qqplayer qqmacmgr electronic-wechat
+brew cask install neteasemusic baiducloud the-unarchiver
+
+# qq             qqbrowser      qqlive         qqmacmgr       qqmusic        qqplayer
+# brew cask install thunder
+# brew cask install aliwangwang(可选)
+# brew cask install neteasemusic
+# brew cask install baiducloud
+# brew cask install the-unarchiver
+# http://www.dreamxu.com/install-config-squirrel/
+# 中州韻輸入法--Mac 上的 Rime 输入法
+# brew cask install squirrel
+
+# brew cask install libreoffice
+# brew cask install splayerx
+# brew cask install electronic-wechat
