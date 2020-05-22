@@ -29,3 +29,11 @@ git config --global alias.cp cherry-pick
 # brew cask install rowanj-gitx
 # tig 查看git的提交记录 -- git log
 brew install tig
+
+# 更改密钥权限
+# chmod 0600 zgt
+
+# 加载密钥
+# ssh-add zgt
+# 查看密钥
+# ssh-add -l
