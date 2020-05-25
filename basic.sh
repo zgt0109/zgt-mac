@@ -75,7 +75,7 @@ brew cask install gitter
 brew cask install libreoffice
 brew cask install youdaonote
 
-brew cask install neteasemusic baiducloud the-unarchiver
+brew cask install neteasemusic the-unarchiver
 brew cask install qq qqmusic qqplayer qqmacmgr wechat
 
 
