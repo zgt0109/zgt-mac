@@ -30,6 +30,8 @@ git config --global alias.cp cherry-pick
 # tig 查看git的提交记录 -- git log
 brew install tig
 
+# 创建密钥存放文件夹
+# mkdir ~/.ssh
 # 更改密钥权限
 # chmod 0600 zgt
 
