@@ -16,6 +16,13 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosugges
 printf '# zsh-autosuggestions\n' >> ~/.zshrc
 printf 'source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh\n' >> ~/.zshrc
 
+# 配置 语法高亮(homebrew 安装之后再安装)
+# zsh-syntax-highlighting
+# brew install zsh-syntax-highlighting
+# vi ~/.zshrc
+# source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source ~/.zshrc
+
 # vi ~/.zshrc
 # source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # source ~/.zshrc
