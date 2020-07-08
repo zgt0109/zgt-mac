@@ -16,11 +16,14 @@ if [ -e /usr/local/bin/fish ]; then
 fi
 
 # mac 中切换fish 和 zsh
+# 查看当前发行版可以使用的shell
 # cat /etc/shells
 # chsh -s /bin/zsh
 # chsh -s /bin/bash
 # chsh -s /usr/local/bin/fish
 # 退出终端，重新打开即可
+# 查看当前使用的shell
+# echo $SHELL
 
 # U盘安装mac系统
 # 安装之前，备份好资料，插入mac U盘启动器，重启电脑，长按左侧 option，进行安装
