@@ -39,3 +39,6 @@ brew install tig
 # ssh-add zgt
 # 查看密钥
 # ssh-add -l
+
+# github 翻墙命令
+# export GIT_SSH_COMMAND='ssh -o ProxyCommand="nc -X 5 -x 127.0.0.1:10886 %h %p"'
